@@ -7,9 +7,9 @@
     "start": "next start",
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,scss,md,json}'",
     "lint-staged": "lint-staged",
-    "lint:style": "stylelint --fix \"src/**/*.scss\" --syntax scss",
+    "lint:style": "stylelint --fix \"pages/**/*.scss\" --syntax scss",
     "lint-staged:js": "eslint --ext .js,.jsx,.ts,.tsx ",
-    "lint:fix": "eslint --fix --cache --ext .js,.jsx,.ts,.tsx --format=pretty ./src && npm run lint:style",
+    "lint:fix": "eslint --fix --cache --ext .js,.jsx,.ts,.tsx --format=pretty ./pages && npm run lint:style",
     "tsc": "tsc --noEmit"
   },
   "gitHooks": {
